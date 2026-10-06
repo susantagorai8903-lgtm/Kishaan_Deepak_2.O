@@ -1,0 +1,1017 @@
+[2026-09-23 11:03:48,640] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-23 11:03:50,319] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-09-23 11:03:50,341] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-09-23 11:04:00,481] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-23 11:04:01,667] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-09-23 11:04:01,669] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-09-23 11:04:15,605] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-23 11:04:17,216] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-09-23 11:04:17,218] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-09-23 11:04:17,233] [INFO] [disease_service:132]: Disease prediction raw result: class='Rice Hispa', confidence=23.20%
+[2026-09-23 11:04:17,233] [WARNING] [disease_service:136]: Confidence guard triggered: 23.20% < 60%
+[2026-09-23 13:32:50,176] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-23 13:32:52,764] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-09-23 13:32:52,767] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-09-23 13:32:52,767] [INFO] [ml_api:25]: ModelStore singleton initialized successfully.
+[2026-09-23 13:32:52,771] [INFO] [ml_api:162]: Starting Kishaan Deepak ML Microservice on port 5001...
+[2026-09-23 13:33:59,218] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:33:59,219] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:34:59,199] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:34:59,200] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:36:28,988] [INFO] [ml_api:37]: Incoming: POST /api/chat from 127.0.0.1
+[2026-09-23 13:36:28,989] [INFO] [ml_api:41]: Completed: POST /api/chat -> Status 200
+[2026-09-23 13:36:31,004] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:36:31,005] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:36:31,281] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:36:31,282] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:36:31,282] [INFO] [ml_api:37]: Incoming: GET /api/yield/options from 127.0.0.1
+[2026-09-23 13:36:31,297] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:36:31,298] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:36:31,320] [INFO] [ml_api:41]: Completed: GET /api/yield/options -> Status 200
+[2026-09-23 13:36:31,340] [INFO] [ml_api:37]: Incoming: GET /api/yield/options from 127.0.0.1
+[2026-09-23 13:36:31,359] [INFO] [ml_api:41]: Completed: GET /api/yield/options -> Status 200
+[2026-09-23 13:36:33,212] [INFO] [ml_api:37]: Incoming: POST /api/yield/predict from 127.0.0.1
+[2026-09-23 13:36:33,232] [INFO] [ml_api:41]: Completed: POST /api/yield/predict -> Status 200
+[2026-09-23 13:36:47,185] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:36:47,185] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:37:02,192] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:37:02,193] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:37:17,193] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:37:17,194] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:37:24,239] [INFO] [ml_api:37]: Incoming: POST /api/yield/predict from 127.0.0.1
+[2026-09-23 13:37:24,252] [INFO] [ml_api:41]: Completed: POST /api/yield/predict -> Status 200
+[2026-09-23 13:37:28,249] [INFO] [ml_api:37]: Incoming: POST /api/yield/predict from 127.0.0.1
+[2026-09-23 13:37:28,258] [INFO] [ml_api:41]: Completed: POST /api/yield/predict -> Status 200
+[2026-09-23 13:37:31,281] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:37:31,282] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:37:35,916] [INFO] [ml_api:37]: Incoming: POST /api/yield/predict from 127.0.0.1
+[2026-09-23 13:37:35,925] [INFO] [ml_api:41]: Completed: POST /api/yield/predict -> Status 200
+[2026-09-23 13:37:40,624] [INFO] [ml_api:37]: Incoming: POST /api/yield/predict from 127.0.0.1
+[2026-09-23 13:37:40,632] [INFO] [ml_api:41]: Completed: POST /api/yield/predict -> Status 200
+[2026-09-23 13:37:44,141] [INFO] [ml_api:37]: Incoming: POST /api/chat from 127.0.0.1
+[2026-09-23 13:37:44,142] [INFO] [ml_api:41]: Completed: POST /api/chat -> Status 200
+[2026-09-23 13:37:47,190] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:37:47,190] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:38:02,191] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:38:02,192] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:38:17,193] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:38:17,194] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:38:32,187] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:38:32,187] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:38:59,194] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:38:59,194] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:39:59,188] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:39:59,188] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:40:59,199] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:40:59,200] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:41:59,195] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:41:59,196] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:42:59,188] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:42:59,188] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:43:59,190] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:43:59,191] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:44:59,194] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:44:59,194] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:45:59,192] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:45:59,193] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:46:59,197] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:46:59,197] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:47:59,197] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:47:59,197] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:48:59,184] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:48:59,185] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:49:59,198] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:49:59,198] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:50:59,190] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:50:59,190] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-23 13:51:59,195] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-23 13:51:59,195] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-26 13:32:36,489] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-26 13:32:36,508] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-09-26 13:32:36,529] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-09-26 13:32:36,546] [INFO] [disease_service:180]: Disease prediction raw result: class='Bacterial Leaf Blight', confidence=99.51%
+[2026-09-26 13:34:30,939] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-26 13:34:30,962] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-09-26 13:34:30,977] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-09-26 13:34:30,991] [INFO] [disease_service:180]: Disease prediction raw result: class='Bacterial Leaf Blight', confidence=99.95%
+[2026-09-26 13:55:57,151] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-26 13:55:59,369] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-09-26 13:55:59,372] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-09-26 13:55:59,384] [INFO] [disease_service:180]: Disease prediction raw result: class='Bacterial Leaf Blight', confidence=88.82%
+[2026-09-26 13:55:59,396] [INFO] [disease_service:180]: Disease prediction raw result: class='Blast', confidence=72.23%
+[2026-09-26 13:55:59,407] [INFO] [disease_service:180]: Disease prediction raw result: class='Brown Spot', confidence=98.70%
+[2026-09-26 13:55:59,418] [INFO] [disease_service:180]: Disease prediction raw result: class='Hispa', confidence=96.64%
+[2026-09-26 13:55:59,430] [INFO] [disease_service:180]: Disease prediction raw result: class='Normal', confidence=90.36%
+[2026-09-26 13:55:59,441] [INFO] [disease_service:180]: Disease prediction raw result: class='Tungro', confidence=81.96%
+[2026-09-26 13:55:59,452] [INFO] [disease_service:180]: Disease prediction raw result: class='Dead Heart', confidence=81.18%
+[2026-09-26 13:56:19,517] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-26 13:56:21,666] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-09-26 13:56:21,668] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-09-26 13:56:21,679] [INFO] [disease_service:180]: Disease prediction raw result: class='Tungro', confidence=91.00%
+[2026-09-26 14:15:14,396] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-26 14:15:14,411] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-09-26 14:15:14,434] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-09-26 14:15:14,453] [INFO] [disease_service:180]: Disease prediction raw result: class='Bacterial Leaf Blight', confidence=99.97%
+[2026-09-26 14:32:23,326] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-26 14:32:25,007] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-09-26 14:32:25,011] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-09-26 14:32:25,011] [INFO] [ml_api:25]: ModelStore singleton initialized successfully.
+[2026-09-26 14:32:25,076] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-26 14:32:25,076] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-26 14:32:25,078] [INFO] [ml_api:37]: Incoming: GET /api/yield/options from 127.0.0.1
+[2026-09-26 14:32:25,111] [INFO] [ml_api:41]: Completed: GET /api/yield/options -> Status 200
+[2026-09-26 14:32:25,113] [INFO] [ml_api:37]: Incoming: POST /api/yield/predict from 127.0.0.1
+[2026-09-26 14:32:25,130] [INFO] [ml_api:41]: Completed: POST /api/yield/predict -> Status 200
+[2026-09-26 14:32:25,244] [INFO] [ml_api:37]: Incoming: POST /api/disease/predict from 127.0.0.1
+[2026-09-26 14:32:25,264] [INFO] [disease_service:180]: Disease prediction raw result: class='Blast', confidence=68.41%
+[2026-09-26 14:32:25,265] [INFO] [ml_api:41]: Completed: POST /api/disease/predict -> Status 200
+[2026-09-26 14:32:25,269] [INFO] [ml_api:37]: Incoming: POST /api/disease/predict from 127.0.0.1
+[2026-09-26 14:32:25,281] [INFO] [disease_service:180]: Disease prediction raw result: class='Blast', confidence=48.30%
+[2026-09-26 14:32:25,282] [WARNING] [disease_service:184]: Confidence guard triggered: 48.30% < 60%
+[2026-09-26 14:32:25,282] [INFO] [ml_api:41]: Completed: POST /api/disease/predict -> Status 422
+[2026-09-26 21:26:07,152] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-26 21:26:10,423] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-09-26 21:26:10,427] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-09-26 21:26:10,427] [INFO] [ml_api:25]: ModelStore singleton initialized successfully.
+[2026-09-26 21:26:10,432] [INFO] [ml_api:162]: Starting Kishaan Deepak ML Microservice on port 5001...
+[2026-09-26 21:29:55,400] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-26 21:29:55,410] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-26 21:29:55,514] [INFO] [ml_api:37]: Incoming: POST /api/chat from 127.0.0.1
+[2026-09-26 21:29:55,515] [INFO] [ml_api:41]: Completed: POST /api/chat -> Status 200
+[2026-09-26 21:39:06,814] [INFO] [chat_service:84]: Groq LLM Client initialized successfully.
+[2026-09-26 21:51:47,334] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-26 21:51:50,008] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-09-26 21:51:50,012] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-09-26 21:51:50,012] [INFO] [ml_api:25]: ModelStore singleton initialized successfully.
+[2026-09-26 21:51:50,016] [INFO] [ml_api:162]: Starting Kishaan Deepak ML Microservice on port 5001...
+[2026-09-26 21:52:13,577] [INFO] [ml_api:37]: Incoming: GET / from 127.0.0.1
+[2026-09-26 21:52:13,578] [INFO] [ml_api:41]: Completed: GET / -> Status 404
+[2026-09-26 21:52:13,710] [INFO] [ml_api:37]: Incoming: GET /favicon.ico from 127.0.0.1
+[2026-09-26 21:52:13,710] [INFO] [ml_api:41]: Completed: GET /favicon.ico -> Status 404
+[2026-09-26 21:52:22,124] [INFO] [ml_api:37]: Incoming: GET / from 192.168.1.10
+[2026-09-26 21:52:22,125] [INFO] [ml_api:41]: Completed: GET / -> Status 404
+[2026-09-26 21:52:22,274] [INFO] [ml_api:37]: Incoming: GET /favicon.ico from 192.168.1.10
+[2026-09-26 21:52:22,276] [INFO] [ml_api:41]: Completed: GET /favicon.ico -> Status 404
+[2026-09-26 21:52:28,651] [INFO] [ml_api:37]: Incoming: GET / from 127.0.0.1
+[2026-09-26 21:52:28,651] [INFO] [ml_api:41]: Completed: GET / -> Status 404
+[2026-09-26 22:04:39,301] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-26 22:05:00,767] [ERROR] [model_store:54]: Failed to deserialize model files: No module named '_loss'
+[2026-09-26 22:05:00,768] [ERROR] [ml_api:27]: FATAL: Model initialization failed: Failed to load ML models: No module named '_loss'
+[2026-09-26 22:05:00,770] [INFO] [ml_api:162]: Starting Kishaan Deepak ML Microservice on port 5001...
+[2026-09-26 22:05:05,557] [INFO] [ml_api:37]: Incoming: GET / from 127.0.0.1
+[2026-09-26 22:05:05,563] [INFO] [ml_api:41]: Completed: GET / -> Status 404
+[2026-09-28 12:51:30,815] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-28 12:51:32,755] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-09-28 12:51:32,774] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-09-28 12:51:32,775] [INFO] [ml_api:25]: ModelStore singleton initialized successfully.
+[2026-09-28 12:51:32,777] [INFO] [ml_api:162]: Starting Kishaan Deepak ML Microservice on port 5001...
+[2026-09-28 12:58:01,132] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-28 12:58:11,242] [ERROR] [model_store:54]: Failed to deserialize model files: No module named '_loss'
+[2026-09-28 12:58:11,243] [ERROR] [ml_api:27]: FATAL: Model initialization failed: Failed to load ML models: No module named '_loss'
+[2026-09-28 12:58:11,245] [INFO] [ml_api:162]: Starting Kishaan Deepak ML Microservice on port 5001...
+[2026-09-28 13:05:01,221] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-28 13:05:02,525] [ERROR] [model_store:54]: Failed to deserialize model files: No module named '_loss'
+[2026-09-28 13:05:02,525] [ERROR] [ml_api:27]: FATAL: Model initialization failed: Failed to load ML models: No module named '_loss'
+[2026-09-28 13:05:02,528] [INFO] [ml_api:162]: Starting Kishaan Deepak ML Microservice on port 5001...
+[2026-09-28 13:12:11,997] [INFO] [ml_api:37]: Incoming: GET /api/yield/options from 127.0.0.1
+[2026-09-28 13:12:11,997] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:12:11,998] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:12:12,028] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:12:12,032] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:12:12,033] [INFO] [ml_api:41]: Completed: GET /api/yield/options -> Status 200
+[2026-09-28 13:12:12,049] [INFO] [ml_api:37]: Incoming: GET /api/yield/options from 127.0.0.1
+[2026-09-28 13:12:12,060] [INFO] [ml_api:41]: Completed: GET /api/yield/options -> Status 200
+[2026-09-28 13:12:19,790] [INFO] [ml_api:37]: Incoming: POST /api/chat from 127.0.0.1
+[2026-09-28 13:12:19,790] [INFO] [ml_api:41]: Completed: POST /api/chat -> Status 200
+[2026-09-28 13:12:23,071] [INFO] [ml_api:37]: Incoming: POST /api/chat from 127.0.0.1
+[2026-09-28 13:12:23,072] [INFO] [ml_api:41]: Completed: POST /api/chat -> Status 200
+[2026-09-28 13:12:25,972] [INFO] [ml_api:37]: Incoming: POST /api/chat from 127.0.0.1
+[2026-09-28 13:12:25,973] [INFO] [ml_api:41]: Completed: POST /api/chat -> Status 200
+[2026-09-28 13:12:26,978] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:12:26,979] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:12:30,076] [INFO] [ml_api:37]: Incoming: POST /api/chat from 127.0.0.1
+[2026-09-28 13:12:30,077] [INFO] [ml_api:41]: Completed: POST /api/chat -> Status 200
+[2026-09-28 13:12:30,812] [INFO] [ml_api:37]: Incoming: POST /api/chat from 127.0.0.1
+[2026-09-28 13:12:30,812] [INFO] [ml_api:41]: Completed: POST /api/chat -> Status 200
+[2026-09-28 13:12:31,775] [INFO] [ml_api:37]: Incoming: POST /api/chat from 127.0.0.1
+[2026-09-28 13:12:31,776] [INFO] [ml_api:41]: Completed: POST /api/chat -> Status 200
+[2026-09-28 13:12:41,120] [INFO] [ml_api:37]: Incoming: POST /api/chat from 127.0.0.1
+[2026-09-28 13:12:41,121] [INFO] [ml_api:41]: Completed: POST /api/chat -> Status 200
+[2026-09-28 13:12:41,975] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:12:41,976] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:12:48,713] [INFO] [ml_api:37]: Incoming: GET /api/yield/options from 127.0.0.1
+[2026-09-28 13:12:48,725] [INFO] [ml_api:41]: Completed: GET /api/yield/options -> Status 200
+[2026-09-28 13:12:48,739] [INFO] [ml_api:37]: Incoming: GET /api/yield/options from 127.0.0.1
+[2026-09-28 13:12:48,750] [INFO] [ml_api:41]: Completed: GET /api/yield/options -> Status 200
+[2026-09-28 13:12:51,811] [INFO] [ml_api:37]: Incoming: POST /api/yield/predict from 127.0.0.1
+[2026-09-28 13:12:51,812] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-28 13:12:51,815] [ERROR] [model_store:54]: Failed to deserialize model files: No module named '_loss'
+[2026-09-28 13:12:51,815] [ERROR] [ml_api:90]: Runtime error in yield prediction: Failed to load ML models: No module named '_loss'
+[2026-09-28 13:12:51,815] [INFO] [ml_api:41]: Completed: POST /api/yield/predict -> Status 503
+[2026-09-28 13:12:56,980] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:12:56,980] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:13:09,025] [INFO] [ml_api:37]: Incoming: POST /api/yield/predict from 127.0.0.1
+[2026-09-28 13:13:09,026] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-28 13:13:09,029] [ERROR] [model_store:54]: Failed to deserialize model files: No module named '_loss'
+[2026-09-28 13:13:09,029] [ERROR] [ml_api:90]: Runtime error in yield prediction: Failed to load ML models: No module named '_loss'
+[2026-09-28 13:13:09,030] [INFO] [ml_api:41]: Completed: POST /api/yield/predict -> Status 503
+[2026-09-28 13:13:11,975] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:13:11,975] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:13:27,204] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:13:27,204] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:13:42,200] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:13:42,201] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:13:57,203] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:13:57,203] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:14:12,206] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:14:12,206] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:15:22,195] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:15:22,195] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:16:23,191] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:16:23,192] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:17:23,199] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:17:23,199] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:18:09,744] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:18:09,745] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:18:12,210] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:18:12,210] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:18:27,192] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:18:27,193] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:18:42,199] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:18:42,199] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:18:57,196] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:18:57,197] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:19:23,210] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:19:23,211] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:20:23,197] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:20:23,197] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 503
+[2026-09-28 13:22:04,177] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-28 13:22:06,908] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-09-28 13:22:06,909] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-09-28 13:22:06,910] [INFO] [ml_api:25]: ModelStore singleton initialized successfully.
+[2026-09-28 13:22:06,911] [INFO] [ml_api:162]: Starting Kishaan Deepak ML Microservice on port 5001...
+[2026-09-28 13:22:12,101] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:22:12,102] [INFO] [ml_api:37]: Incoming: GET /api/yield/options from 127.0.0.1
+[2026-09-28 13:22:12,102] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:22:12,113] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:22:12,115] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:22:12,118] [INFO] [ml_api:41]: Completed: GET /api/yield/options -> Status 200
+[2026-09-28 13:22:12,135] [INFO] [ml_api:37]: Incoming: GET /api/yield/options from 127.0.0.1
+[2026-09-28 13:22:12,151] [INFO] [ml_api:41]: Completed: GET /api/yield/options -> Status 200
+[2026-09-28 13:22:15,196] [INFO] [ml_api:37]: Incoming: POST /api/yield/predict from 127.0.0.1
+[2026-09-28 13:22:15,205] [INFO] [ml_api:41]: Completed: POST /api/yield/predict -> Status 200
+[2026-09-28 13:22:18,434] [INFO] [ml_api:37]: Incoming: POST /api/yield/predict from 127.0.0.1
+[2026-09-28 13:22:18,441] [INFO] [ml_api:41]: Completed: POST /api/yield/predict -> Status 200
+[2026-09-28 13:22:21,531] [INFO] [ml_api:37]: Incoming: POST /api/yield/predict from 127.0.0.1
+[2026-09-28 13:22:21,539] [INFO] [ml_api:41]: Completed: POST /api/yield/predict -> Status 200
+[2026-09-28 13:22:24,722] [INFO] [ml_api:37]: Incoming: POST /api/yield/predict from 127.0.0.1
+[2026-09-28 13:22:24,729] [INFO] [ml_api:41]: Completed: POST /api/yield/predict -> Status 200
+[2026-09-28 13:22:26,930] [INFO] [ml_api:37]: Incoming: POST /api/yield/predict from 127.0.0.1
+[2026-09-28 13:22:26,937] [INFO] [ml_api:41]: Completed: POST /api/yield/predict -> Status 200
+[2026-09-28 13:22:27,107] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:22:27,108] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:22:42,104] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:22:42,104] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:22:46,436] [INFO] [ml_api:37]: Incoming: POST /api/disease/predict from 127.0.0.1
+[2026-09-28 13:22:46,516] [INFO] [disease_service:180]: Disease prediction raw result: class='Blast', confidence=97.38%
+[2026-09-28 13:22:46,516] [INFO] [ml_api:41]: Completed: POST /api/disease/predict -> Status 200
+[2026-09-28 13:22:57,110] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:22:57,110] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:23:01,984] [INFO] [ml_api:37]: Incoming: POST /api/disease/predict from 127.0.0.1
+[2026-09-28 13:23:01,994] [INFO] [disease_service:180]: Disease prediction raw result: class='Bacterial Leaf Blight', confidence=99.77%
+[2026-09-28 13:23:01,995] [INFO] [ml_api:41]: Completed: POST /api/disease/predict -> Status 200
+[2026-09-28 13:23:12,107] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:23:12,107] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:23:14,067] [INFO] [ml_api:37]: Incoming: POST /api/disease/predict from 127.0.0.1
+[2026-09-28 13:23:14,078] [INFO] [disease_service:180]: Disease prediction raw result: class='Bacterial Panicle Blight', confidence=90.51%
+[2026-09-28 13:23:14,079] [INFO] [ml_api:41]: Completed: POST /api/disease/predict -> Status 200
+[2026-09-28 13:23:27,105] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:23:27,106] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:23:28,745] [INFO] [ml_api:37]: Incoming: POST /api/chat from 127.0.0.1
+[2026-09-28 13:23:28,745] [INFO] [ml_api:41]: Completed: POST /api/chat -> Status 200
+[2026-09-28 13:23:32,579] [INFO] [ml_api:37]: Incoming: GET /api/yield/options from 127.0.0.1
+[2026-09-28 13:23:32,588] [INFO] [ml_api:41]: Completed: GET /api/yield/options -> Status 200
+[2026-09-28 13:23:32,604] [INFO] [ml_api:37]: Incoming: GET /api/yield/options from 127.0.0.1
+[2026-09-28 13:23:32,615] [INFO] [ml_api:41]: Completed: GET /api/yield/options -> Status 200
+[2026-09-28 13:23:42,110] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:23:42,110] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:23:51,434] [INFO] [ml_api:37]: Incoming: POST /api/yield/predict from 127.0.0.1
+[2026-09-28 13:23:51,444] [INFO] [ml_api:41]: Completed: POST /api/yield/predict -> Status 200
+[2026-09-28 13:23:54,436] [INFO] [ml_api:37]: Incoming: POST /api/yield/predict from 127.0.0.1
+[2026-09-28 13:23:54,445] [INFO] [ml_api:41]: Completed: POST /api/yield/predict -> Status 200
+[2026-09-28 13:23:56,504] [INFO] [ml_api:37]: Incoming: POST /api/yield/predict from 127.0.0.1
+[2026-09-28 13:23:56,511] [INFO] [ml_api:41]: Completed: POST /api/yield/predict -> Status 200
+[2026-09-28 13:23:57,109] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:23:57,109] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:24:02,237] [INFO] [ml_api:37]: Incoming: POST /api/disease/predict from 127.0.0.1
+[2026-09-28 13:24:02,247] [INFO] [disease_service:180]: Disease prediction raw result: class='Hispa', confidence=96.30%
+[2026-09-28 13:24:02,248] [INFO] [ml_api:41]: Completed: POST /api/disease/predict -> Status 200
+[2026-09-28 13:24:12,109] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:24:12,110] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:24:13,623] [INFO] [ml_api:37]: Incoming: POST /api/disease/predict from 127.0.0.1
+[2026-09-28 13:24:13,635] [INFO] [disease_service:180]: Disease prediction raw result: class='Normal', confidence=97.47%
+[2026-09-28 13:24:13,636] [INFO] [ml_api:41]: Completed: POST /api/disease/predict -> Status 200
+[2026-09-28 13:24:25,826] [INFO] [ml_api:37]: Incoming: POST /api/disease/predict from 127.0.0.1
+[2026-09-28 13:24:25,837] [INFO] [disease_service:180]: Disease prediction raw result: class='Bacterial Leaf Blight', confidence=96.59%
+[2026-09-28 13:24:25,837] [INFO] [ml_api:41]: Completed: POST /api/disease/predict -> Status 200
+[2026-09-28 13:24:27,103] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:24:27,104] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:24:31,341] [INFO] [ml_api:37]: Incoming: POST /api/chat from 127.0.0.1
+[2026-09-28 13:24:31,342] [INFO] [ml_api:41]: Completed: POST /api/chat -> Status 200
+[2026-09-28 13:24:33,190] [INFO] [ml_api:37]: Incoming: POST /api/chat from 127.0.0.1
+[2026-09-28 13:24:33,190] [INFO] [ml_api:41]: Completed: POST /api/chat -> Status 200
+[2026-09-28 13:24:34,844] [INFO] [ml_api:37]: Incoming: POST /api/chat from 127.0.0.1
+[2026-09-28 13:24:34,845] [INFO] [ml_api:41]: Completed: POST /api/chat -> Status 200
+[2026-09-28 13:24:36,520] [INFO] [ml_api:37]: Incoming: POST /api/chat from 127.0.0.1
+[2026-09-28 13:24:36,521] [INFO] [ml_api:41]: Completed: POST /api/chat -> Status 200
+[2026-09-28 13:24:38,025] [INFO] [ml_api:37]: Incoming: POST /api/chat from 127.0.0.1
+[2026-09-28 13:24:38,026] [INFO] [ml_api:41]: Completed: POST /api/chat -> Status 200
+[2026-09-28 13:24:42,110] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:24:42,111] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:24:44,490] [INFO] [ml_api:37]: Incoming: POST /api/chat from 127.0.0.1
+[2026-09-28 13:24:44,492] [INFO] [ml_api:41]: Completed: POST /api/chat -> Status 200
+[2026-09-28 13:24:57,195] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:24:57,195] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:25:12,205] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:25:12,206] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:25:27,204] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:25:27,205] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:25:42,215] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:25:42,216] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:25:57,202] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:25:57,202] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:26:23,198] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:26:23,199] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:27:23,197] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:27:23,197] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:28:23,195] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:28:23,195] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:29:23,195] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:29:23,195] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:30:23,217] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:30:23,217] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:31:23,200] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:31:23,201] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:32:23,191] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:32:23,191] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:33:23,200] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:33:23,200] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:34:23,204] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:34:23,205] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:35:23,196] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:35:23,197] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:36:23,198] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:36:23,199] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:37:23,205] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:37:23,205] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:38:23,193] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:38:23,194] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-28 13:39:23,200] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-28 13:39:23,201] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-29 11:53:55,456] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-29 11:54:08,541] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-09-29 11:54:08,569] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-09-29 11:54:08,570] [INFO] [ml_api:25]: ModelStore singleton initialized successfully.
+[2026-09-29 11:54:08,578] [INFO] [ml_api:162]: Starting Kishaan Deepak ML Microservice on port 5001...
+[2026-09-29 11:54:19,856] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-29 11:54:19,857] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-29 11:55:19,829] [INFO] [ml_api:37]: Incoming: GET /api/yield/options from 127.0.0.1
+[2026-09-29 11:55:19,903] [INFO] [ml_api:41]: Completed: GET /api/yield/options -> Status 200
+[2026-09-30 11:49:10,471] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-09-30 11:49:12,402] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-09-30 11:49:12,419] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-09-30 11:49:12,419] [INFO] [ml_api:25]: ModelStore singleton initialized successfully.
+[2026-09-30 11:49:12,422] [INFO] [ml_api:162]: Starting Kishaan Deepak ML Microservice on port 5001...
+[2026-09-30 11:49:16,486] [INFO] [ml_api:37]: Incoming: POST /api/yield/predict from 127.0.0.1
+[2026-09-30 11:49:16,509] [INFO] [ml_api:41]: Completed: POST /api/yield/predict -> Status 200
+[2026-09-30 11:49:23,206] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-30 11:49:23,208] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-30 11:49:38,203] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-30 11:49:38,203] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-30 11:49:53,196] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-30 11:49:53,197] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-09-30 11:50:08,198] [INFO] [ml_api:37]: Incoming: GET /api/health from 127.0.0.1
+[2026-09-30 11:50:08,199] [INFO] [ml_api:41]: Completed: GET /api/health -> Status 200
+[2026-10-01 12:01:40,600] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-10-01 12:01:45,665] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-10-01 12:01:45,669] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-10-01 12:01:53,202] [INFO] [disease_service:65]: Loaded paddy reference feature distribution from training dataset for suitability checks.
+[2026-10-01 12:01:53,205] [INFO] [disease_service:235]: Paddy suitability feature distance: 0.952
+[2026-10-01 12:01:53,222] [INFO] [disease_service:288]: Disease prediction raw result: class='Dead Heart', confidence=61.37%
+[2026-10-01 12:01:53,235] [INFO] [disease_service:235]: Paddy suitability feature distance: 0.946
+[2026-10-01 12:01:53,254] [INFO] [disease_service:288]: Disease prediction raw result: class='Bacterial Leaf Blight', confidence=86.63%
+[2026-10-01 12:01:53,261] [INFO] [disease_service:235]: Paddy suitability feature distance: 1.252
+[2026-10-01 12:01:53,274] [INFO] [disease_service:288]: Disease prediction raw result: class='Bacterial Leaf Streak', confidence=99.18%
+[2026-10-01 12:01:53,281] [INFO] [disease_service:235]: Paddy suitability feature distance: 1.086
+[2026-10-01 12:01:53,290] [INFO] [disease_service:288]: Disease prediction raw result: class='Bacterial Panicle Blight', confidence=96.48%
+[2026-10-01 12:22:59,049] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-10-01 12:23:02,843] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-10-01 12:23:02,869] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-10-01 12:23:12,104] [INFO] [disease_service:65]: Loaded paddy reference feature distribution from training dataset for suitability checks.
+[2026-10-01 12:23:12,107] [INFO] [disease_service:235]: Paddy suitability feature distance: 0.964
+[2026-10-01 12:23:12,122] [INFO] [disease_service:288]: Disease prediction raw result: class='Blast', confidence=44.71%
+[2026-10-01 12:23:12,123] [WARNING] [disease_service:291]: Confidence guard triggered: 44.71% < 60%
+[2026-10-01 12:23:12,132] [INFO] [disease_service:235]: Paddy suitability feature distance: 0.946
+[2026-10-01 12:23:12,157] [INFO] [disease_service:288]: Disease prediction raw result: class='Bacterial Leaf Blight', confidence=86.63%
+[2026-10-01 12:23:12,167] [INFO] [disease_service:235]: Paddy suitability feature distance: 1.252
+[2026-10-01 12:23:12,186] [INFO] [disease_service:288]: Disease prediction raw result: class='Bacterial Leaf Streak', confidence=99.18%
+[2026-10-01 12:23:12,194] [INFO] [disease_service:235]: Paddy suitability feature distance: 1.086
+[2026-10-01 12:23:12,206] [INFO] [disease_service:288]: Disease prediction raw result: class='Bacterial Panicle Blight', confidence=96.48%
+[2026-10-01 12:45:47,586] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-10-01 12:45:50,056] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-10-01 12:45:50,059] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-10-01 12:45:50,059] [INFO] [ml_api:24]: ModelStore singleton initialized successfully.
+[2026-10-01 12:45:50,063] [INFO] [ml_api:142]: Starting Kishaan Deepak ML Microservice on port 5001...
+[2026-10-01 12:45:50,142] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 12:45:50,143] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 12:47:44,185] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 12:47:48,049] [INFO] [disease_service:65]: Loaded paddy reference feature distribution from training dataset for suitability checks.
+[2026-10-01 12:47:48,052] [INFO] [disease_service:235]: Paddy suitability feature distance: 0.946
+[2026-10-01 12:47:48,073] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.927
+[2026-10-01 12:47:48,095] [INFO] [disease_service:297]: Disease prediction raw result: class='Bacterial Leaf Blight', confidence=86.63%
+[2026-10-01 12:47:48,097] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 200
+[2026-10-01 12:47:48,126] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 12:47:48,135] [INFO] [disease_service:235]: Paddy suitability feature distance: 0.941
+[2026-10-01 12:47:48,137] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.320
+[2026-10-01 12:47:48,137] [WARNING] [disease_service:283]: Disease image validation rejected: The uploaded image does not appear to be a clear paddy leaf. Please upload a clear photo of a paddy leaf.
+[2026-10-01 12:47:48,138] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 422
+[2026-10-01 13:29:13,471] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:29:13,471] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:29:49,734] [INFO] [ml_api:34]: Incoming: GET /api/yield/options
+[2026-10-01 13:29:49,735] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:29:49,739] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:29:49,851] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:29:49,858] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:29:49,863] [INFO] [ml_api:38]: Completed: GET /api/yield/options -> Status 200
+[2026-10-01 13:29:49,890] [INFO] [ml_api:34]: Incoming: GET /api/yield/options
+[2026-10-01 13:29:49,904] [INFO] [ml_api:38]: Completed: GET /api/yield/options -> Status 200
+[2026-10-01 13:29:52,466] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 13:29:52,483] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 13:29:55,447] [INFO] [ml_api:34]: Incoming: GET /api/yield/options
+[2026-10-01 13:29:55,459] [INFO] [ml_api:38]: Completed: GET /api/yield/options -> Status 200
+[2026-10-01 13:29:55,473] [INFO] [ml_api:34]: Incoming: GET /api/yield/options
+[2026-10-01 13:29:55,483] [INFO] [ml_api:38]: Completed: GET /api/yield/options -> Status 200
+[2026-10-01 13:30:01,282] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 13:30:01,289] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 13:30:04,719] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:30:04,719] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:30:08,939] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 13:30:08,988] [INFO] [disease_service:235]: Paddy suitability feature distance: 2.179
+[2026-10-01 13:30:09,032] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.289
+[2026-10-01 13:30:09,034] [WARNING] [disease_service:283]: Disease image validation rejected: The uploaded image does not appear to be a clear paddy leaf. Please upload a clear photo of a paddy leaf.
+[2026-10-01 13:30:09,034] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 422
+[2026-10-01 13:30:19,714] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:30:19,714] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:30:22,618] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 13:30:22,665] [INFO] [disease_service:235]: Paddy suitability feature distance: 2.179
+[2026-10-01 13:30:22,708] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.289
+[2026-10-01 13:30:22,710] [WARNING] [disease_service:283]: Disease image validation rejected: The uploaded image does not appear to be a clear paddy leaf. Please upload a clear photo of a paddy leaf.
+[2026-10-01 13:30:22,710] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 422
+[2026-10-01 13:30:31,799] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 13:30:31,811] [INFO] [disease_service:235]: Paddy suitability feature distance: 1.938
+[2026-10-01 13:30:31,813] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.002
+[2026-10-01 13:30:31,813] [WARNING] [disease_service:283]: Disease image validation rejected: The uploaded image does not appear to be a clear paddy leaf. Please upload a clear photo of a paddy leaf.
+[2026-10-01 13:30:31,813] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 422
+[2026-10-01 13:30:34,716] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:30:34,716] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:30:39,175] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 13:30:39,211] [INFO] [disease_service:235]: Paddy suitability feature distance: 2.198
+[2026-10-01 13:30:39,248] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.000
+[2026-10-01 13:30:39,249] [WARNING] [disease_service:283]: Disease image validation rejected: The uploaded image does not appear to be a clear paddy leaf. Please upload a clear photo of a paddy leaf.
+[2026-10-01 13:30:39,250] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 422
+[2026-10-01 13:30:50,198] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:30:50,198] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:31:05,204] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:31:05,204] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:31:20,198] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:31:20,199] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:31:32,440] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 13:31:32,483] [INFO] [disease_service:235]: Paddy suitability feature distance: 1.089
+[2026-10-01 13:31:32,509] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.344
+[2026-10-01 13:31:32,510] [WARNING] [disease_service:283]: Disease image validation rejected: The uploaded image does not appear to be a clear paddy leaf. Please upload a clear photo of a paddy leaf.
+[2026-10-01 13:31:32,511] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 422
+[2026-10-01 13:31:34,714] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:31:34,714] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:31:49,716] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:31:49,717] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:31:51,052] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 13:31:51,066] [INFO] [disease_service:235]: Paddy suitability feature distance: 0.894
+[2026-10-01 13:31:51,072] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.812
+[2026-10-01 13:31:51,082] [INFO] [disease_service:297]: Disease prediction raw result: class='Normal', confidence=64.07%
+[2026-10-01 13:31:51,083] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 200
+[2026-10-01 13:32:04,717] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:32:04,717] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:32:19,296] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 13:32:19,309] [INFO] [disease_service:235]: Paddy suitability feature distance: 1.085
+[2026-10-01 13:32:19,314] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.927
+[2026-10-01 13:32:19,326] [INFO] [disease_service:297]: Disease prediction raw result: class='Hispa', confidence=99.94%
+[2026-10-01 13:32:19,327] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 200
+[2026-10-01 13:32:19,716] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:32:19,717] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:32:26,918] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 13:32:26,932] [INFO] [disease_service:235]: Paddy suitability feature distance: 0.777
+[2026-10-01 13:32:26,940] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.954
+[2026-10-01 13:32:26,952] [INFO] [disease_service:297]: Disease prediction raw result: class='Hispa', confidence=91.48%
+[2026-10-01 13:32:26,953] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 200
+[2026-10-01 13:32:34,714] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:32:34,714] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:32:37,508] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 13:32:37,521] [INFO] [disease_service:235]: Paddy suitability feature distance: 1.234
+[2026-10-01 13:32:37,526] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.884
+[2026-10-01 13:32:37,537] [INFO] [disease_service:297]: Disease prediction raw result: class='Blast', confidence=81.86%
+[2026-10-01 13:32:37,537] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 200
+[2026-10-01 13:32:49,714] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:32:49,714] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:32:58,514] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 13:32:58,527] [INFO] [disease_service:235]: Paddy suitability feature distance: 0.985
+[2026-10-01 13:32:58,533] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.936
+[2026-10-01 13:32:58,543] [INFO] [disease_service:297]: Disease prediction raw result: class='Normal', confidence=55.90%
+[2026-10-01 13:32:58,544] [WARNING] [disease_service:300]: Confidence guard triggered: 55.90% < 60%
+[2026-10-01 13:32:58,544] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 422
+[2026-10-01 13:33:04,712] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:33:04,713] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:33:19,723] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:33:19,723] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:33:34,716] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:33:34,716] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:33:49,713] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:33:49,713] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:34:04,718] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:34:04,718] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:34:13,698] [INFO] [ml_api:34]: Incoming: GET /api/yield/options
+[2026-10-01 13:34:13,709] [INFO] [ml_api:38]: Completed: GET /api/yield/options -> Status 200
+[2026-10-01 13:34:13,728] [INFO] [ml_api:34]: Incoming: GET /api/yield/options
+[2026-10-01 13:34:13,742] [INFO] [ml_api:38]: Completed: GET /api/yield/options -> Status 200
+[2026-10-01 13:34:20,202] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:34:20,202] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:34:35,203] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:34:35,204] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:34:50,191] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:34:50,192] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 13:35:05,194] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 13:35:05,194] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:28:37,314] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-10-01 19:28:51,146] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-10-01 19:28:51,188] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-10-01 19:28:51,188] [INFO] [ml_api:24]: ModelStore singleton initialized successfully.
+[2026-10-01 19:28:51,196] [INFO] [ml_api:142]: Starting Kishaan Deepak ML Microservice on port 5001...
+[2026-10-01 19:28:52,070] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:28:52,071] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:32:23,288] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:32:23,290] [INFO] [ml_api:34]: Incoming: GET /api/yield/options
+[2026-10-01 19:32:23,290] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:32:23,412] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:32:23,418] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:32:23,421] [INFO] [ml_api:38]: Completed: GET /api/yield/options -> Status 200
+[2026-10-01 19:32:23,453] [INFO] [ml_api:34]: Incoming: GET /api/yield/options
+[2026-10-01 19:32:23,495] [INFO] [ml_api:38]: Completed: GET /api/yield/options -> Status 200
+[2026-10-01 19:32:27,042] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:32:27,063] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:32:31,034] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:32:31,044] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:32:37,585] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:32:37,596] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:32:38,272] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:32:38,272] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:32:46,801] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:32:46,813] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:32:49,562] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:32:49,575] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:32:49,913] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:32:49,931] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:32:53,271] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:32:53,272] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:32:54,737] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:32:54,755] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:32:54,905] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:32:54,918] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:32:55,048] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:32:55,062] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:32:55,440] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:32:55,451] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:32:55,897] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:32:55,912] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:33:02,218] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:33:02,231] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:33:08,268] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:33:08,269] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:33:09,321] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:33:09,335] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:33:10,452] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:33:10,470] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:33:10,713] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:33:10,732] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:33:16,737] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:33:16,749] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:33:23,267] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:33:23,267] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:33:25,761] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:33:25,772] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:33:31,328] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:33:31,339] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:33:38,275] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:33:38,275] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:33:53,267] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:33:53,268] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:34:00,288] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:34:00,300] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:34:06,921] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:34:06,937] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:34:08,017] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:34:08,030] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:34:08,239] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:34:08,252] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:34:08,272] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:34:08,273] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:34:08,415] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:34:08,431] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:34:08,560] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:34:08,572] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:34:11,631] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:34:11,644] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:34:23,277] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:34:23,277] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:34:26,528] [INFO] [ml_api:34]: Incoming: POST /api/yield/predict
+[2026-10-01 19:34:26,538] [INFO] [ml_api:38]: Completed: POST /api/yield/predict -> Status 200
+[2026-10-01 19:34:36,103] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 19:34:38,275] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:34:38,275] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:34:41,293] [INFO] [disease_service:65]: Loaded paddy reference feature distribution from training dataset for suitability checks.
+[2026-10-01 19:34:41,295] [INFO] [disease_service:235]: Paddy suitability feature distance: 2.300
+[2026-10-01 19:34:41,320] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.000
+[2026-10-01 19:34:41,320] [WARNING] [disease_service:283]: Disease image validation rejected: The uploaded image does not appear to be a clear paddy leaf. Please upload a clear photo of a paddy leaf.
+[2026-10-01 19:34:41,320] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 422
+[2026-10-01 19:34:53,271] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:34:53,272] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:34:54,936] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 19:34:54,950] [INFO] [disease_service:235]: Paddy suitability feature distance: 2.265
+[2026-10-01 19:34:54,951] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.000
+[2026-10-01 19:34:54,951] [WARNING] [disease_service:283]: Disease image validation rejected: The uploaded image does not appear to be a clear paddy leaf. Please upload a clear photo of a paddy leaf.
+[2026-10-01 19:34:54,952] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 422
+[2026-10-01 19:35:04,112] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 19:35:04,166] [INFO] [disease_service:235]: Paddy suitability feature distance: 2.317
+[2026-10-01 19:35:04,199] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.001
+[2026-10-01 19:35:04,201] [WARNING] [disease_service:283]: Disease image validation rejected: The uploaded image does not appear to be a clear paddy leaf. Please upload a clear photo of a paddy leaf.
+[2026-10-01 19:35:04,202] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 422
+[2026-10-01 19:35:08,738] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:35:08,738] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:35:23,735] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:35:23,736] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:35:38,729] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:35:38,730] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:35:53,268] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:35:53,269] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:36:08,268] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:36:08,268] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:36:23,266] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:36:23,266] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:36:35,143] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 19:36:35,173] [INFO] [disease_service:235]: Paddy suitability feature distance: 0.790
+[2026-10-01 19:36:35,188] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.805
+[2026-10-01 19:36:35,227] [INFO] [disease_service:297]: Disease prediction raw result: class='Brown Spot', confidence=34.79%
+[2026-10-01 19:36:35,228] [WARNING] [disease_service:300]: Confidence guard triggered: 34.79% < 60%
+[2026-10-01 19:36:35,228] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 422
+[2026-10-01 19:36:38,274] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:36:38,275] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:36:44,791] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 19:36:44,824] [INFO] [disease_service:235]: Paddy suitability feature distance: 0.905
+[2026-10-01 19:36:44,831] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.979
+[2026-10-01 19:36:44,845] [INFO] [disease_service:297]: Disease prediction raw result: class='Normal', confidence=59.51%
+[2026-10-01 19:36:44,845] [WARNING] [disease_service:300]: Confidence guard triggered: 59.51% < 60%
+[2026-10-01 19:36:44,846] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 422
+[2026-10-01 19:36:53,268] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:36:53,269] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:37:08,739] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:37:08,739] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:37:23,736] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:37:23,737] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:37:38,268] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:37:38,268] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:37:41,319] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 19:37:41,347] [INFO] [disease_service:235]: Paddy suitability feature distance: 0.860
+[2026-10-01 19:37:41,360] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.922
+[2026-10-01 19:37:41,372] [INFO] [disease_service:297]: Disease prediction raw result: class='Dead Heart', confidence=96.75%
+[2026-10-01 19:37:41,377] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 200
+[2026-10-01 19:37:53,288] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:37:53,288] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:37:58,787] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 19:37:58,810] [INFO] [disease_service:235]: Paddy suitability feature distance: 0.992
+[2026-10-01 19:37:58,821] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.841
+[2026-10-01 19:37:58,847] [INFO] [disease_service:297]: Disease prediction raw result: class='Blast', confidence=99.76%
+[2026-10-01 19:37:58,848] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 200
+[2026-10-01 19:38:08,277] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:38:08,277] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:38:10,079] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 19:38:10,105] [INFO] [disease_service:235]: Paddy suitability feature distance: 0.946
+[2026-10-01 19:38:10,116] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.927
+[2026-10-01 19:38:10,132] [INFO] [disease_service:297]: Disease prediction raw result: class='Bacterial Leaf Blight', confidence=86.63%
+[2026-10-01 19:38:10,133] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 200
+[2026-10-01 19:38:23,275] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:38:23,276] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:38:24,306] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 19:38:24,326] [INFO] [disease_service:235]: Paddy suitability feature distance: 1.217
+[2026-10-01 19:38:24,342] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.807
+[2026-10-01 19:38:24,360] [INFO] [disease_service:297]: Disease prediction raw result: class='Bacterial Leaf Streak', confidence=100.00%
+[2026-10-01 19:38:24,361] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 200
+[2026-10-01 19:38:38,280] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:38:38,280] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:38:46,479] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 19:38:46,502] [INFO] [disease_service:235]: Paddy suitability feature distance: 0.908
+[2026-10-01 19:38:46,521] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.970
+[2026-10-01 19:38:46,535] [INFO] [disease_service:297]: Disease prediction raw result: class='Normal', confidence=92.33%
+[2026-10-01 19:38:46,538] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 200
+[2026-10-01 19:38:53,274] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:38:53,274] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:39:08,273] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:39:08,274] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:39:23,269] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:39:23,269] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:39:38,268] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:39:38,269] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:39:53,267] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:39:53,267] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:40:08,279] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:40:08,280] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:40:23,277] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:40:23,277] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:40:38,275] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:40:38,275] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:40:53,274] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:40:53,275] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:41:08,271] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:41:08,271] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:41:09,844] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 19:41:09,869] [INFO] [disease_service:235]: Paddy suitability feature distance: 0.908
+[2026-10-01 19:41:09,875] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.970
+[2026-10-01 19:41:09,889] [INFO] [disease_service:297]: Disease prediction raw result: class='Normal', confidence=92.33%
+[2026-10-01 19:41:09,889] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 200
+[2026-10-01 19:41:19,678] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 19:41:19,702] [INFO] [disease_service:235]: Paddy suitability feature distance: 0.849
+[2026-10-01 19:41:19,712] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.972
+[2026-10-01 19:41:19,730] [INFO] [disease_service:297]: Disease prediction raw result: class='Bacterial Leaf Streak', confidence=93.01%
+[2026-10-01 19:41:19,733] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 200
+[2026-10-01 19:41:23,272] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:41:23,273] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:41:35,451] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 19:41:35,477] [INFO] [disease_service:235]: Paddy suitability feature distance: 1.176
+[2026-10-01 19:41:35,488] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.874
+[2026-10-01 19:41:35,505] [INFO] [disease_service:297]: Disease prediction raw result: class='Brown Spot', confidence=98.91%
+[2026-10-01 19:41:35,505] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 200
+[2026-10-01 19:41:38,272] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:41:38,272] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:41:52,710] [INFO] [ml_api:34]: Incoming: POST /api/disease/predict
+[2026-10-01 19:41:52,748] [INFO] [disease_service:235]: Paddy suitability feature distance: 1.036
+[2026-10-01 19:41:52,757] [INFO] [disease_service:257]: Paddy green coverage ratio: 0.927
+[2026-10-01 19:41:52,771] [INFO] [disease_service:297]: Disease prediction raw result: class='Blast', confidence=100.00%
+[2026-10-01 19:41:52,772] [INFO] [ml_api:38]: Completed: POST /api/disease/predict -> Status 200
+[2026-10-01 19:41:53,269] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:41:53,270] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:42:08,266] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:42:08,267] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:42:23,279] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:42:23,280] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:42:38,267] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:42:38,268] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:42:53,273] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:42:53,274] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:43:08,275] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:43:08,275] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:43:23,273] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:43:23,274] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:43:38,272] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:43:38,272] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:43:53,269] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:43:53,270] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:44:08,267] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:44:08,268] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:44:23,276] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:44:23,277] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:44:38,268] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:44:38,269] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:44:53,273] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:44:53,274] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:45:08,274] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:45:08,274] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:45:23,275] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:45:23,275] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:45:38,279] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:45:38,279] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:45:53,270] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:45:53,270] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:46:08,269] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:46:08,270] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:46:23,328] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:46:23,364] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:46:38,266] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:46:38,266] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:46:53,266] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:46:53,266] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:46:53,516] [INFO] [ml_api:34]: Incoming: GET /api/yield/options
+[2026-10-01 19:46:53,543] [INFO] [ml_api:38]: Completed: GET /api/yield/options -> Status 200
+[2026-10-01 19:46:53,558] [INFO] [ml_api:34]: Incoming: GET /api/yield/options
+[2026-10-01 19:46:53,601] [INFO] [ml_api:38]: Completed: GET /api/yield/options -> Status 200
+[2026-10-01 19:47:08,734] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:47:08,735] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:47:23,738] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:47:23,738] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:47:38,769] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:47:38,771] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:47:53,741] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:47:53,741] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:48:54,737] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:48:54,737] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:49:55,728] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:49:55,728] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:50:31,270] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:50:31,272] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:50:38,269] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:50:38,269] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:50:53,727] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:50:53,727] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:51:08,726] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:51:08,726] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:51:23,736] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:51:23,736] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:51:38,727] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:51:38,727] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:52:05,739] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:52:05,740] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:53:05,735] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:53:05,736] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:54:05,741] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:54:05,741] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:55:05,730] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:55:05,730] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:56:05,730] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:56:05,731] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:57:05,741] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:57:05,741] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:57:53,469] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:57:53,484] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:58:08,729] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:58:08,729] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:58:23,741] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:58:23,742] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:58:38,733] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:58:38,734] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:58:53,740] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:58:53,740] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 19:59:54,734] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 19:59:54,734] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:00:55,735] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:00:55,739] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:01:56,730] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:01:56,730] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:02:57,736] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:02:57,737] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:03:58,732] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:03:58,732] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:04:59,875] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:04:59,879] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:06:00,737] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:06:00,737] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:07:01,739] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:07:01,740] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:08:02,735] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:08:02,736] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:09:03,732] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:09:03,733] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:10:04,737] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:10:04,737] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:11:05,740] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:11:05,740] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:12:05,742] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:12:05,742] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:13:05,736] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:13:05,737] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:14:05,734] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:14:05,735] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:15:05,741] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:15:05,742] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:16:05,739] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:16:05,740] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:17:05,732] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:17:05,733] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:18:05,753] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:18:05,753] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:19:05,724] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:19:05,724] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:20:05,738] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:20:05,738] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:21:05,729] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:21:05,730] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:22:05,740] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:22:05,740] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:23:05,736] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:23:05,737] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:24:05,736] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:24:05,737] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:25:05,736] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:25:05,736] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:26:05,750] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:26:05,750] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:27:05,734] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:27:05,734] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:28:05,733] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:28:05,734] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:29:05,729] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:29:05,729] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:30:05,733] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:30:05,734] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:31:05,766] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:31:05,767] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:32:05,739] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:32:05,740] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:33:05,729] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:33:05,729] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:34:05,737] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:34:05,737] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:35:05,739] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:35:05,739] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:36:05,739] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:36:05,740] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:37:05,744] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:37:05,745] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:38:05,737] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:38:05,737] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:39:05,743] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:39:05,744] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:40:05,733] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:40:05,734] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:41:05,733] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:41:05,734] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:42:05,730] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:42:05,730] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:43:05,736] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:43:05,737] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:44:05,736] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:44:05,737] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:45:05,772] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:45:05,774] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:46:05,783] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:46:05,786] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:47:05,826] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:47:05,827] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:48:05,809] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:48:05,810] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:49:05,799] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:49:05,800] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:50:05,776] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:50:05,777] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:51:05,761] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:51:05,763] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:52:05,772] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:52:05,774] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:53:05,821] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:53:05,822] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:54:05,825] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:54:05,826] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:55:05,736] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:55:05,737] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:56:05,740] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:56:05,740] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:57:05,730] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:57:05,731] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-01 20:58:05,734] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-01 20:58:05,734] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-06 11:50:38,758] [INFO] [model_store:29]: Eagerly loading ML models into ModelStore singleton...
+[2026-10-06 11:50:54,657] [INFO] [model_store:49]: Successfully loaded Yield Regression model.
+[2026-10-06 11:50:54,679] [INFO] [model_store:52]: Successfully loaded Disease Classification model and LabelEncoder.
+[2026-10-06 11:50:54,680] [INFO] [ml_api:24]: ModelStore singleton initialized successfully.
+[2026-10-06 11:50:54,684] [INFO] [ml_api:142]: Starting Kishaan Deepak ML Microservice on port 5001...
+[2026-10-06 11:50:54,788] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-06 11:50:54,796] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-06 11:51:00,675] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-06 11:51:00,676] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-06 11:51:00,677] [INFO] [ml_api:34]: Incoming: GET /api/yield/options
+[2026-10-06 11:51:00,725] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-06 11:51:00,726] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-06 11:51:00,790] [INFO] [ml_api:38]: Completed: GET /api/yield/options -> Status 200
+[2026-10-06 11:51:00,812] [INFO] [ml_api:34]: Incoming: GET /api/yield/options
+[2026-10-06 11:51:00,845] [INFO] [ml_api:38]: Completed: GET /api/yield/options -> Status 200
+[2026-10-06 11:51:03,126] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-06 11:51:03,126] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-06 11:51:16,632] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-06 11:51:16,633] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-06 11:51:18,122] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-06 11:51:18,123] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-06 11:51:31,664] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-06 11:51:31,665] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-06 11:51:33,325] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-06 11:51:33,419] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-06 11:51:48,687] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-06 11:51:49,090] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-06 11:51:53,223] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-06 11:51:53,224] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-06 11:52:01,629] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-06 11:52:01,629] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-06 11:52:03,200] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-06 11:52:03,230] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-06 11:52:16,893] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-06 11:52:16,893] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-06 11:52:18,137] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-06 11:52:18,142] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-06 11:52:31,633] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-06 11:52:31,634] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200
+[2026-10-06 11:52:33,130] [INFO] [ml_api:34]: Incoming: GET /api/health
+[2026-10-06 11:52:33,135] [INFO] [ml_api:38]: Completed: GET /api/health -> Status 200

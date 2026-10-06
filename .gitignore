@@ -1,0 +1,7 @@
+server/.env
+ml-service/.env
+__pycache__/
+*.pyc
+.env
+.env.*
+!ml-service/.env.example
